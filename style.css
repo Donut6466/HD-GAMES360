@@ -1,14 +1,14 @@
 html {
-    background-color: black;
+    background-color: #1E1F22;
 }
 body {
-    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    background-color:#1E1F22;
     font-family: 'Nunito Sans', sans-serif;
     width: 70%;
     margin: auto;
-    border-color: #00aa1c;
-    border-width: 2px;
-    border-style: solid;
     padding: 40px;
 }
 
@@ -17,7 +17,7 @@ header{
 }
 
 header a {
-    background-color: black;
+    background-color: #2B2D31;
     text-decoration: none;
     padding: 5px;
     border-radius: 5px;
@@ -25,42 +25,49 @@ header a {
 
 section{
     padding: 1em;
+    background-color: #313338;
+    border-color: #3F4147;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+section h2{
+    background-color: #2B2D31;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3F4147;
 }
 
 .bloco{
-    overflow:auto;
-    height: 400px;
     color: #fff;
-    background-color: black;
+    background-color: #383A40;
     border-width: 2px;
     border-style: solid;
-    border-color: #00aa1c;
+    border-color: #3F4147;
 }
 
-#ListaDeJogos h2{
-    background-color: black;
-    border-style: double;
-    border-width: 5px;
-    border-color: #00aa1c;
+#JogosDaLista{
+    overflow:auto;
+    height: 800px;
 }
 
 h1 {
     text-align: center;
     border-style: solid;
-    background-color: black;
+    background-color: #2B2D31;
     border-radius: 10px;
-    color: #00aa1c;
+    border-color: #3F4147;
+    color: #B5BAC1;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 40px;
-    text-shadow: 0px 0px 10px #646464;
 }
 
 h2 {
     text-align: center;
-    color: #00aa1c;
+    color: #B5BAC1;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 30px;
-    text-shadow: 0px 0px 2px #fff;
 }
 
 h3 {
@@ -95,9 +102,9 @@ ol ul li a:hover {
 }
 
 a {
-    color: #00aa1c;
+    color: #B5BAC1;
 }
 
 a:hover {
-    color: #63c86b;
+    color: rgb(183, 187, 233);
 }
