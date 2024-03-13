@@ -28,7 +28,7 @@ section{
 }
 
 .bloco{
-    overflow: scroll;
+    overflow:auto;
     height: 400px;
     color: #fff;
     background-color: black;
