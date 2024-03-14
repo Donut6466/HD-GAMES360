@@ -23,6 +23,10 @@ header a {
     border-radius: 5px;
 }
 
+nav a{
+    font-size: 20px;
+}
+
 section{
     padding: 1em;
     background-color: #313338;
